@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\HyperFightersGraphic.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{1E9F627F-170E-40F5-BF57-BB8372BB8946}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\HyperFightersGraphic.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\HyperFightersGraphicEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{2390BDE9-A710-4BEE-8BF4-C57F39614A17}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\HyperFightersGraphic">
+			<UniqueIdentifier>{12C670A8-1EBE-4FCD-8B03-FEB7BB80B4C5}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\HyperFightersGraphic\HyperFightersGraphic.Build.cs">
+			<Filter>Source\HyperFightersGraphic</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\HyperFightersGraphic\HyperFightersGraphic.cpp">
+			<Filter>Source\HyperFightersGraphic</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HyperFightersGraphic\HyperFightersGraphic.h">
+			<Filter>Source\HyperFightersGraphic</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HyperFightersGraphic\HyperFightersGraphicGameModeBase.cpp">
+			<Filter>Source\HyperFightersGraphic</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HyperFightersGraphic\HyperFightersGraphicGameModeBase.h">
+			<Filter>Source\HyperFightersGraphic</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
