@@ -14,12 +14,19 @@ void EmptyLinkFunctionForGeneratedCode1HyperFightersGraphic() {}
 	{
 	}
 	IMPLEMENT_CLASS(AHyperFightersGraphicGameModeBase, 3067578853);
+	void ATerry::StaticRegisterNativesATerry()
+	{
+	}
+	IMPLEMENT_CLASS(ATerry, 107169477);
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	ENGINE_API class UClass* Z_Construct_UClass_AGameModeBase();
+	ENGINE_API class UClass* Z_Construct_UClass_APawn();
 
 	HYPERFIGHTERSGRAPHIC_API class UClass* Z_Construct_UClass_AHyperFightersGraphicGameModeBase_NoRegister();
 	HYPERFIGHTERSGRAPHIC_API class UClass* Z_Construct_UClass_AHyperFightersGraphicGameModeBase();
+	HYPERFIGHTERSGRAPHIC_API class UClass* Z_Construct_UClass_ATerry_NoRegister();
+	HYPERFIGHTERSGRAPHIC_API class UClass* Z_Construct_UClass_ATerry();
 	HYPERFIGHTERSGRAPHIC_API class UPackage* Z_Construct_UPackage__Script_HyperFightersGraphic();
 	UClass* Z_Construct_UClass_AHyperFightersGraphicGameModeBase_NoRegister()
 	{
@@ -54,6 +61,38 @@ void EmptyLinkFunctionForGeneratedCode1HyperFightersGraphic() {}
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AHyperFightersGraphicGameModeBase(Z_Construct_UClass_AHyperFightersGraphicGameModeBase, &AHyperFightersGraphicGameModeBase::StaticClass, TEXT("AHyperFightersGraphicGameModeBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AHyperFightersGraphicGameModeBase);
+	UClass* Z_Construct_UClass_ATerry_NoRegister()
+	{
+		return ATerry::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ATerry()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_APawn();
+			Z_Construct_UPackage__Script_HyperFightersGraphic();
+			OuterClass = ATerry::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("Terry.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("Public/Terry.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ATerry(Z_Construct_UClass_ATerry, &ATerry::StaticClass, TEXT("ATerry"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ATerry);
 	UPackage* Z_Construct_UPackage__Script_HyperFightersGraphic()
 	{
 		static UPackage* ReturnPackage = NULL;
@@ -62,8 +101,8 @@ void EmptyLinkFunctionForGeneratedCode1HyperFightersGraphic() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/HyperFightersGraphic")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xB873D285;
-			Guid.B = 0x534B0EDE;
+			Guid.A = 0xA54B9891;
+			Guid.B = 0x5A2542AD;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

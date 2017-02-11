@@ -1,3 +1,3 @@
-C:\Users\User\Desktop\HyperFightersGraphic\Source\HyperFightersGraphic\HyperFightersGraphic.Build.cs
-C:\Users\User\Desktop\HyperFightersGraphic\Source\HyperFightersGraphic.Target.cs
-C:\Users\User\Desktop\HyperFightersGraphic\Source\HyperFightersGraphicEditor.Target.cs
+C:\Users\User\Desktop\Hyper-Fighters-graphics\HyperFightersGraphic\Source\HyperFightersGraphic\HyperFightersGraphic.Build.cs
+C:\Users\User\Desktop\Hyper-Fighters-graphics\HyperFightersGraphic\Source\HyperFightersGraphic.Target.cs
+C:\Users\User\Desktop\Hyper-Fighters-graphics\HyperFightersGraphic\Source\HyperFightersGraphicEditor.Target.cs

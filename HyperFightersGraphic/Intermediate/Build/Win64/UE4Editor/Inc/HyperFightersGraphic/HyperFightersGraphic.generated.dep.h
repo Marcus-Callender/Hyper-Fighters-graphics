@@ -8,3 +8,6 @@
 #ifndef HYPERFIGHTERSGRAPHIC_HyperFightersGraphicGameModeBase_generated_h
 	#include "HyperFightersGraphicGameModeBase.h"
 #endif
+#ifndef HYPERFIGHTERSGRAPHIC_Terry_generated_h
+	#include "Public/Terry.h"
+#endif
