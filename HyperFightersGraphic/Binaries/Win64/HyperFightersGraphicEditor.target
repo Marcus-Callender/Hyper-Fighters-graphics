@@ -2,7 +2,7 @@
 	"TargetName" : "HyperFightersGraphicEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "",
+	"BuildId" : "bbcda02e-c1b3-4fa5-87ef-9384e0b22221",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -16,15 +16,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-HyperFightersGraphic.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-HyperFightersGraphic-5029.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-HyperFightersGraphic.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-HyperFightersGraphic-5029.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-HyperFightersGraphic.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-HyperFightersGraphic-5029.lib",
 			"Type" : "ImportLibrary"
 		}
 	],
