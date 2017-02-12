@@ -413,6 +413,8 @@
 		<None Include="..\..\Config\DefaultEditor.ini" />
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
+		<ClCompile Include="..\..\Source\HyperFightersGraphic\BP_Terry.cpp" />
+		<ClInclude Include="..\..\Source\HyperFightersGraphic\BP_Terry.h" />
 		<None Include="..\..\Source\HyperFightersGraphic\HyperFightersGraphic.Build.cs" />
 		<ClCompile Include="..\..\Source\HyperFightersGraphic\HyperFightersGraphic.cpp" />
 		<ClInclude Include="..\..\Source\HyperFightersGraphic\HyperFightersGraphic.h" />

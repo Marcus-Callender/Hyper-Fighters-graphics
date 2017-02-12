@@ -5,6 +5,9 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
+#ifndef HYPERFIGHTERSGRAPHIC_BP_Terry_generated_h
+	#include "BP_Terry.h"
+#endif
 #ifndef HYPERFIGHTERSGRAPHIC_HyperFightersGraphicGameModeBase_generated_h
 	#include "HyperFightersGraphicGameModeBase.h"
 #endif

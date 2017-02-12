@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\HyperFightersGraphic.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{ECA8C8DE-BB92-4D4E-851B-A5F952921965}</UniqueIdentifier>
+			<UniqueIdentifier>{6862E453-F1DE-4681-A272-7B01FD6F5878}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\HyperFightersGraphic.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{441BE3F2-928D-4D1E-8E35-E02C892D3257}</UniqueIdentifier>
+			<UniqueIdentifier>{2CDECE70-40FF-4C9D-BF8C-815C2C85AB65}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -25,8 +25,14 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\HyperFightersGraphic">
-			<UniqueIdentifier>{1A52D742-0579-4E62-8A9B-A06717D5FF5C}</UniqueIdentifier>
+			<UniqueIdentifier>{DBCB01C1-1C5B-4606-BA28-7684E25E9BB9}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\HyperFightersGraphic\BP_Terry.cpp">
+			<Filter>Source\HyperFightersGraphic</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HyperFightersGraphic\BP_Terry.h">
+			<Filter>Source\HyperFightersGraphic</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\HyperFightersGraphic\HyperFightersGraphic.Build.cs">
 			<Filter>Source\HyperFightersGraphic</Filter>
 		</None >
