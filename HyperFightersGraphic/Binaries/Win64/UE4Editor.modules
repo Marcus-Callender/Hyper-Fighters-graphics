@@ -1,9 +1,9 @@
 {
 	"Changelist" : 3224400,
 	"CompatibleChangelist" : 3195953,
-	"BuildId" : "926ce871-f52a-40a4-ac6c-054de80cb063",
+	"BuildId" : "cdcc150b-9da5-4012-8941-ea276978e8b4",
 	"Modules" : 
 	{
-		"HyperFightersGraphic" : "UE4Editor-HyperFightersGraphic-91.dll"
+		"HyperFightersGraphic" : "UE4Editor-HyperFightersGraphic-2146.dll"
 	}
 }

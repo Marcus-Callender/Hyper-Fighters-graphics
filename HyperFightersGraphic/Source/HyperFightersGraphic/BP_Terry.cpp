@@ -67,7 +67,7 @@ void C_FighterData::knockDown()
 	m_knockedDown = true;
 	//std::cout << m_name << " got knocked down.\n";
 	UE_LOG(MyLogCategory, Log, TEXT("This is my message that prints to the log. It works like printf"));
-
+	//PC->ClientMessage("Your Message")
 }
 
 void C_FighterData::gainHp(int ammount)
